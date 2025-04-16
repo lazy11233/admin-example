@@ -9,5 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterLink to="/register">Login</RouterLink>
   </div>
 
+  <div class="color-red">参考输出</div>
+
   <RouterView />
 </template>
