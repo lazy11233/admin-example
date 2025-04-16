@@ -4,9 +4,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <div>
-    <RouterLink to="/">首页</RouterLink>
-    <RouterLink to="/login">Login</RouterLink>
-    <RouterLink to="/register">Login</RouterLink>
+    <RouterLink to="/">首页</RouterLink> |
+    <RouterLink to="/login">Login</RouterLink> |
+    <RouterLink to="/register">Register</RouterLink>
   </div>
 
   <div class="color-red">参考输出</div>
