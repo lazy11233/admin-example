@@ -32,12 +32,6 @@ export default defineConfigWithVueTs(
       }],
       'vue/block-order': [2, { order: ['script', 'template', 'style'] }],
       'vue/component-definition-name-casing': [2, 'PascalCase'],
-      'vue/multi-word-component-names': [
-        2,
-        {
-          'ignores': ['App', 'Dashboard', 'Login', 'Register']
-        },
-      ],
     }
   }
 )
