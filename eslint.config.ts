@@ -22,8 +22,8 @@ export default defineConfigWithVueTs(
         singleline: { max: 3 },
         multiline: { max: 1 },
       }],
-      'max-len': [2, { // 一行最多100个字符，忽略注释、尾注释、链接、正则等 B
-        code: 100,
+      'max-len': [2, { // 一行最多120个字符，忽略注释、尾注释、链接、正则等 B
+        code: 120,
         ignoreComments: true,
         ignoreTrailingComments: true,
         ignoreUrls: true,
