@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
 
 </script>
 
 <template>
-  <router-view />
+  <div>
+    表单页面
+  </div>
 </template>
