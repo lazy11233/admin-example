@@ -4,5 +4,10 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <router-view />
+  <div>
+    页面四
+    <div class="p-5">
+      <router-view />
+    </div>
+  </div>
 </template>

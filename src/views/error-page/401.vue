@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
 
 </script>
 
 <template>
-  <router-view />
+  <div>
+    未授权页面
+  </div>
 </template>

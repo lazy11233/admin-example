@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
 
 </script>
 
 <template>
-  <router-view />
+  <div>
+    <router-view />
+    表格页面4-1
+  </div>
 </template>

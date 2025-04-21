@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
 
 </script>
 
 <template>
-  <router-view />
+  <div>
+    not-found页面
+  </div>
 </template>
