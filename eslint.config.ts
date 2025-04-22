@@ -16,6 +16,7 @@ export default defineConfigWithVueTs(
   skipFormatting,
   {
     rules: {
+      'no-console': 2,
       semi: [2, 'never'],
       'no-multiple-empty-lines': [2, { max: 1 }],
       'vue/max-attributes-per-line': [2, {
@@ -32,6 +33,9 @@ export default defineConfigWithVueTs(
       }],
       'vue/block-order': [2, { order: ['script', 'template', 'style'] }],
       'vue/component-definition-name-casing': [2, 'PascalCase'],
+      'vue/multi-word-component-names': [2, {
+        'ignores': ['Login', 'Register', '401', '404', 'Dashboard']
+      }]
     }
   }
 )
